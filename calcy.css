@@ -1,0 +1,11 @@
+body{background-color: black;}
+table,tr,td{border: 1px solid rgb(0, 47, 255);}
+td{color:rgb(252, 254, 248)}
+td{padding-left: 17px;}
+.b{padding: 6px;}
+#val{padding-left: ;border: 2px solid rgb(105, 103, 213);}
+input{background-color: black;color:rgb(235, 16, 60);}
+input[type=text]{
+    border: 2px solid red; margin-right: 8px;
+    color: aqua;
+}

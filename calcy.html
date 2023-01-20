@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcy.css">
+</head>
+<body>
+    <table cellspacing="5px" cellpadding="7px">
+        <tbody>
+            <tr>
+                <td colspan="3" id="val"><input class="display-box" type="text" id="result"></td>
+                <td class="b"><input type="button" value="C" onclick="clrsc()" ></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="prt('7')"></td>
+                <td><input type="button" value="8" onclick="prt('8')"></td>
+                <td><input type="button" value="9" onclick="prt('9')"></td>
+                <td class="b"><input type="button" value="/" onclick="prt('/')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="prt('4')"></td>
+                <td><input type="button" value="5" onclick="prt('5')"></td>
+                <td><input type="button" value="6" onclick="prt('6')"></td>
+                <td class="b"><input type="button" value="*" onclick="prt('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="prt('1')"></td>
+                <td><input type="button" value="2" onclick="prt('2')"></td>
+                <td><input type="button" value="3" onclick="prt('3')"></td>
+                <td class="b"><input type="button" value="-" onclick="prt('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="." onclick="prt('.')"></td>
+                <td><input type="button" value="0" onclick="prt('0')"></td>
+                <td><input type="button" value="=" onclick="cal()"></td>
+                <td class="b"><input type="button" value="+" onclick="prt('+')"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="calcy.js"></script>
+</body>
+</html>
